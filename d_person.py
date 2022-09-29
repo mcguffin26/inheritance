@@ -5,13 +5,13 @@ class Person:
         self.__address = address
         self.__number = number
 
-    def get_name(self)
+    def get_name(self):
         return self.__name
     
-    def get_address(self)
+    def get_address(self):
         return self.__address
 
-    def get_number(self)
+    def get_number(self):
         return self.__number
 
     def print_person(self):
@@ -28,9 +28,9 @@ class Person:
 
     def print_person(self):
         print('METHOD #1')
-        print('Name:', Person.get_name(Self))
-        print('Address:', Person.get_address(Self))
-        print('Phone:', Person.get_number(Self))
+        print('Name:', Person.get_name(self))
+        print('Address:', Person.get_address(self))
+        print('Phone:', Person.get_number(self))
 
         print()
         print()
